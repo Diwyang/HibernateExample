@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+     "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+     "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+
+<hibernate-mapping>
+	<class
+		name="org.hibernate.dj.learning.HibernateAnnotation.Employee"
+		table="employee_table">
+		<id name="id">
+			<generator class="assigned"></generator>
+		</id>
+
+		<property name="name"></property>
+		<property name="gender"></property>
+		<property name="department"></property>
+		<property name="dob"></property>
+	</class>
+
+</hibernate-mapping>  
